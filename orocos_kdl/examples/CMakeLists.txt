@@ -10,5 +10,8 @@ IF(ENABLE_EXAMPLES)
   add_executable(chainiksolverpos_lma_demo chainiksolverpos_lma_demo.cpp )
   TARGET_LINK_LIBRARIES(chainiksolverpos_lma_demo orocos-kdl orocos-kdl-models)
 
+  add_executable(fkiksolve fkiksolve.cpp )
+  TARGET_LINK_LIBRARIES(fkiksolve orocos-kdl orocos-kdl-models)
+
 ENDIF(ENABLE_EXAMPLES)
 
